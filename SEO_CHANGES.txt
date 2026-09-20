@@ -1,0 +1,22 @@
+SEO UPDATE — SIDDHI JAIN & ASSOCIATES
+
+Updated all 7 public HTML pages with:
+- Unique, page-specific SEO titles
+- Unique meta descriptions
+- Self-referencing canonical URLs on www.cssiddhijain.com
+- Open Graph title/description/url/image tags
+- Twitter/X summary_large_image tags
+- Organization + WebSite JSON-LD structured data
+- Consistent CS logo alt text
+
+Verified:
+- robots.txt allows crawling and points to sitemap.xml
+- sitemap.xml contains 7 public pages
+- sitemap and robots return successfully in local smoke test
+- JSON-LD parses successfully on all 7 pages
+- Open Graph image is 1200x630
+
+Search Console action after deployment:
+1. Keep the existing sitemap submission.
+2. After deployment, use URL Inspection on the homepage and request indexing once.
+3. Do not repeatedly request indexing for every page; the sitemap will guide discovery.
